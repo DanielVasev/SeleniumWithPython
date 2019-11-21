@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions
 import time
 
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\daniel.vasev\Desktop\Boohoo\Lichna\Automation\Drivers\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"D:\STUDING\Python\WebDriver\chromedriver_win32\chromedriver.exe")
 
 driver.get("https://login.microsoftonline.com/3f01317f-bda5-49d1-8668-9d3caae9970a/oauth2/authorize?client_id=0000000c-0000-0000-c000-000000000000&redirect_uri=https%3A%2F%2Faccount.activedirectory.windowsazure.com%2F&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3D-jZ69-wkk6FfVlycvxC4A58c4q5b7bEuUOqlUE0U8GodSY715Gfbw9Q5b6tMnJPpEzellYSqoq_ftHGnwyK7MJ6EzCzUOcdvImGJoKVaXWkbq2-WbRbHUQ0moRarkw64LTNNwvq60HLxhlDQ3h1Z7eknVKwAwXIW3YI0b7bIdP3ChaM68ZgfrQV0jJZHxWrMaKNoDse2rHel3p8fd7-Qfu2gKwfxYVZvWYn57W3gti_FN3GFCxZpSXhInxznJlujFGGoEzFT4cjHHpFpkcuNTozkHg85qU5VXT-ibnwiCFbcwWuQM6El4WuZNYwQ0dmLqQCOmJcsaLSXX2sCtZUPuQ&nonce=1572860320.DQtXVMysI_XOV3eo3rGxWA&nux=1")
 driver.maximize_window()

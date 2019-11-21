@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\daniel.vasev\Desktop\Boohoo\Lichna\Automation\Drivers\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"D:\STUDING\Python\WebDriver\chromedriver_win32\chromedriver.exe")
 
 driver.get("https://docs.oasis-open.org/dita/v1.0/langspec/simpletable.html")
 driver.maximize_window()

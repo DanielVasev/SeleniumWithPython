@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait # import time library
 from selenium.webdriver.common.by import By
 
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\daniel.vasev\Desktop\Boohoo\Lichna\Automation\Drivers\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"D:\STUDING\Python\WebDriver\chromedriver_win32\chromedriver.exe")
 
 
 

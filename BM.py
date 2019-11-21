@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions
 import time
 
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\daniel.vasev\Desktop\Boohoo\Lichna\Automation\Drivers\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"D:\STUDING\Python\WebDriver\chromedriver_win32\chromedriver.exe")
 
 driver.get("https://development-bg1-boohoo.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-DisplayWelcomePage")
 driver.maximize_window()
