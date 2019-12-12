@@ -19,7 +19,9 @@ print(cols)
 
 for r in range(1,row + 1 ):
     for c in range(1, cols + 1):
-        print(sheet.cell(row = r, column=c).value, end="     ")
+
+        # with END we can give some space in the printing
+        print(sheet.cell(row = r, column=c).value, end =" ")
 
     print()
 
